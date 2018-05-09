@@ -9,9 +9,10 @@ Please read [CONTRIBUTING.md]() for details on our code of conduct, and the proc
 
 ## Authors
 
- - ***Kranas Georgios*** (gekranas@uth.gr) ([github](https://github.com/PlebeianDev))
- - ***Tsalamagkakis George-Chris*** (gtsalamagkakis@uth.gr)
+  - ***Kranas Georgios*** (gekranas@uth.gr) ([github](https://github.com/PlebeianDev))
+ - ***Tsalamagkakis George-Chris*** (gtsalamagkakis@uth.gr) ([github](https://github.com/GCTsalamagkakis))
  - ***Antonios N. Dadaliaris*** (dadaliaris@cs.uth.gr)
+ - ***Panagiotis Oikonomou*** (paikonom@uth.gr)
 
 
 ## License
