@@ -17,8 +17,6 @@ def plot_area(pl_file_name, leftx, lowy, rightx, highy):
     import matplotlib.cbook
     warnings.filterwarnings("ignore", category=matplotlib.cbook.mplDeprecation)
 
-    start = time.time()
-
     data = []
     cells = {}
     lines = {}
@@ -108,7 +106,5 @@ def plot_area(pl_file_name, leftx, lowy, rightx, highy):
             fill=False
         ))
         ax2.plot()
-
-    print(time.time() - start)
 
     plt.show()

@@ -16,8 +16,6 @@ def plot_compare_cells(pl_file1, pl_file2, cell_pl1, cell_pl2):
     import matplotlib.cbook
     warnings.filterwarnings("ignore", category=matplotlib.cbook.mplDeprecation)
 
-    start = time.time()
-
     data = []
     cell_1 = []
     cell_2 = []
@@ -77,7 +75,5 @@ def plot_compare_cells(pl_file1, pl_file2, cell_pl1, cell_pl2):
         label=cell_pl2
     ))
     ax2.plot()
-
-    print(time.time()-start)
 
     plt.show()

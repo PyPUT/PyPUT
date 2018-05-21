@@ -14,8 +14,6 @@ def plot_placed_design(pl_file_name):
     import matplotlib.cbook
     warnings.filterwarnings("ignore", category=matplotlib.cbook.mplDeprecation)
 
-    start = time.time()
-
     data = []
     cells = {}
     lines = {}
@@ -85,7 +83,5 @@ def plot_placed_design(pl_file_name):
             fill=False
         ))
         ax2.plot()
-
-    print(time.time()-start)
 
     plt.show()
