@@ -1550,8 +1550,6 @@ def swap_cells(pl_file_name, cell1, cell2):
 """
 
 
-import time
-
 
 def total_density(scl_file_name):
 	"""
