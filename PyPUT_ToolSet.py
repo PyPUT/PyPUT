@@ -3652,15 +3652,15 @@ def get_overlaps(file_name):
                     active_list.append(element[0])
                 else:
                     for node in active_list:
-                        if place[node][0] <= place[element[0]][0] + size[element[0]][0] and place[node][0] + size[node][
-                            0] >= place[element[0]][0] and place[node][1] <= place[element[0]][1] + size[element[0]][
-                                1] and place[node][1] + size[node][1] >= place[element[0]][1]:
+                        if int(place[node][0]) < int(place[element[0]][0]) + int(size[element[0]][0]) \
+                                and int(place[node][0]) + int(size[node][0]) > int(place[element[0]][0]) \
+                                and int(place[node][1]) < int(place[element[0]][1]) + int(size[element[0]][1]) \
+                                and int(place[node][1]) + int(size[node][1]) > int(place[element[0]][1]):
                             overlap = (node, element[0])
                             overlapping.append(overlap)
                     active_list.append(element[0])
             else:
                 active_list.remove(element[0])
-
     return overlapping
 
 
